@@ -1,0 +1,170 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.container-fluid{
+	height: 100%;
+}
+.row{
+	height: 100%;
+}
+#left{
+ 	background-color: white;
+ 	padding-top: 110px;
+ 	padding-left: 40px;
+ 	height: 100%;
+}
+.col-lg-6 h1{
+	font-size: 92px;
+	color: #0f1254;
+}
+.col-lg-6 h2{
+	font-size: 48px;
+	color: #0f1254;
+}
+.col-lg-6 h4{
+	font-size: 32px;
+	line-height: 0.8em;
+	color: #0f1254;
+}
+.links{
+	margin-top: 40px;
+}
+a.li-li{
+	color: #0f1254;
+	text-decoration: none;
+	font-size: 22px;
+}
+a.li-li:visited{
+	text-decoration: none;
+	color: #0f1254;
+}
+a.li-li:hover{
+	text-decoration: underline;
+	color: black;
+}
+a.li-li:active{
+	text-decoration: none;
+}
+span{
+	font-size: 40px;
+	padding: 0;
+}
+#l-l{
+	margin-top: 50px;
+	width: 40%;
+	height:8px;
+	background-color: #0f1254;
+}
+
+#right{
+	background-color: #0f1254;
+	height: 100%;
+}
+ul{
+	list-style: none;
+	display: block;
+	text-align: center;
+	padding: 100px;
+	padding-bottom: 60px;
+}
+li{
+	padding: 25px;
+}
+a.ra-ra{
+	color: white;
+	font-size: 48px;
+	font-weight: lighter;
+}
+a.ra-ra:visited{
+	color: white;
+}
+a.ra-ra:hover{
+	color: white;
+}
+a.ra-ra:active{
+	color: white;
+}
+#r-l{
+	width: 40%;
+	height: 8px;
+	background-color: white;
+	margin: auto;
+}
+
+ul.uplinks {
+	padding-left: 5px;
+}
+.up-li {
+	display: inline;
+	padding: 10px;
+	float: left;
+}
+.up-li a{
+	color: #0f1254;
+}
+
+/*------ for ipad pro-------*/
+
+@media only screen and (max-width: 1200px){  
+	ul{
+		padding:0px;
+		padding-top: 160px;
+	}
+	li{
+		padding-top: 25px;
+	}
+}
+@media only screen and (max-width: 768px){
+	#left{
+		padding-top: 80px;
+	}
+	ul.uplinks{
+		padding-top: 0;
+	}
+	.up-li{
+		display: inline;
+		padding: 20px;
+		font-size: 18px;
+		float: left;
+	}
+}
+
+/*for all mobile phones*/
+@media only screen and (max-width: 568px){
+ 	#left{
+ 		padding-top: 80px;
+ 	}
+ 	.col-lg-6 h1{
+ 		font-size:52px;
+ 	}
+ 	.col-lg-6 h2{
+ 		font-size: 36px;
+ 	}
+ 	.col-lg-6 h4{
+ 		font-size:20px;
+ 	}
+ 	a.li-li{
+ 		font-size: 14px;
+ 	}
+ 	span{
+ 		font-size: 20px;
+ 	}
+ 	ul{
+		padding:0;
+	}
+	.up-li{
+		display: inline;
+		padding: 20px;
+		font-size: 14px;
+		float: left;
+	}
+	.up-li a:visited{
+		text-decoration: none;
+		color: #0f1254;
+	}
+	.up-li a:hover{
+		text-decoration: none;
+	}
+}
